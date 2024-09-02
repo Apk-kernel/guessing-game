@@ -5,7 +5,7 @@ int main(){
 using namespace std;
 int num;
 int guess;
-int tries;
+int tries=0;
 
 srand(time(NULL));
 num=(rand()%6)+1;
